@@ -35,7 +35,7 @@ management:
         include: refresh
 
 client1:
-  value: 10
+  value: 100
         
 # server:
 #   port: 8001
