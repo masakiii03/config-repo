@@ -18,7 +18,7 @@ resilience4j:
       #   slidingWindowSize: 10
       cbSample: # CircuitBreakerのid
         slidingWindowSize: 5 # CLOSE時の外部呼出し数を保存する個数
-        failureRateThreshold: 50 # 失敗率のしきい値(%)。上回った場合に CLOSE -> OPEN
+        failureRateThreshold: 30 # 失敗率のしきい値(%)。上回った場合に CLOSE -> OPEN
         waitDurationInOpenState: 15000 # OPENからHALF_OPENに遷移する前の維持時間(ms)
         minimumNumberOfCalls: 1 # 失敗率を計算する最小実行回数
   timelimiter:
