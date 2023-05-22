@@ -1,6 +1,4 @@
 spring:
-  # application:
-  #   name: client-1
   cloud:
     openfeign:
       circuitbreaker:
@@ -36,7 +34,3 @@ management:
 
 client1:
   value: 100
-        
-# server:
-#   port: 8001
-#   # port: 8011
