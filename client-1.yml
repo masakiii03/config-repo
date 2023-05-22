@@ -29,7 +29,7 @@ resilience4j:
         timeoutDuration: 5s # タイムアウトの時間
 
 management:
-  managements:
+  endpoints:
     web:
       exposure:
         include: refresh
