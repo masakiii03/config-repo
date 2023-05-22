@@ -27,6 +27,12 @@ resilience4j:
     configs:
       default:
         timeoutDuration: 5s # タイムアウトの時間
+
+management:
+  managements:
+    web:
+      exposure:
+        include: refresh
         
 # server:
 #   port: 8001
