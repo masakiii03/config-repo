@@ -26,13 +26,16 @@ resilience4j:
   timelimiter:
     configs:
       default:
-        timeoutDuration: 10s # タイムアウトの時間
+        timeoutDuration: 5s # タイムアウトの時間
 
 management:
   endpoints:
     web:
       exposure:
         include: refresh
+
+client1:
+  value: 10
         
 # server:
 #   port: 8001
