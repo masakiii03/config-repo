@@ -9,11 +9,11 @@ spring:
         - id: client1
           uri: lb://client-1
           predicates:
-            - Weight=group1, 2
+            - Weight=group1, 8
         - id: client3
           uri: lb://client-3
           predicates:
-            - Weight=group1, 8
+            - Weight=group1, 2
 
         
 
