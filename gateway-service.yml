@@ -1,10 +1,21 @@
 spring:
   cloud:
     gateway:
-      discovery:
-        locator:
-          enabled: true
-          lower-case-serviceid: true
+      # discovery:
+      #   locator:
+      #     enabled: true
+      #     lower-case-serviceid: true
+      routes:
+        - id: client1
+          uri: lb://client-1
+          predicates:
+            - Weight=group1, 8
+        - id: client3
+          uri: lb://client-3
+          predicates:
+            - Weight=group1, 2
+
+        
 
 eureka:
   client:
