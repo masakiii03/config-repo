@@ -40,4 +40,4 @@ server:
   port: 8080
 
 gw:
-  value: 10
+  value: 20
