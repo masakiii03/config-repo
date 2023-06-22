@@ -39,5 +39,8 @@ management:
 server:
   port: 8080
 
+authentication:
+  path: http://localhost:9000/authentication
+
 gw:
   value: 20
