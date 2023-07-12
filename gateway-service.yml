@@ -46,4 +46,4 @@ authentication:
   path: http://localhost:9000/authentication
 
 gw:
-  value: 10
+  value: 20
