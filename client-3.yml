@@ -43,3 +43,6 @@ management:
   tracing:
     sampling:
       probability: 1.0
+
+cl3:
+  value: client3-1
