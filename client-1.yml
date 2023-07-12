@@ -36,4 +36,4 @@ management:
       probability: 1.0
 
 cl1:
-  value: 20
+  value: 10
