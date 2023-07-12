@@ -1,3 +1,15 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    bus:
+      enabled: true
+      refresh:
+        enabled: true
+
 eureka:
   client:
     serviceUrl:
@@ -13,7 +25,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh
+        include: "*"
   tracing:
     sampling:
       probability: 1.0

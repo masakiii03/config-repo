@@ -1,5 +1,14 @@
 spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
   cloud:
+    bus:
+      enabled: true
+      refresh:
+        enabled: true
     openfeign:
       circuitbreaker:
         enabled: true
@@ -30,7 +39,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh
+        include: "*"
   tracing:
     sampling:
       probability: 1.0
