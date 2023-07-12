@@ -34,7 +34,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh
+        include: "*"
   tracing:
     sampling:
       probability: 1.0
