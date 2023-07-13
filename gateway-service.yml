@@ -55,4 +55,4 @@ authentication:
   path: http://localhost:9000/authentication
 
 gw:
-  value: gw-2
+  value: gw-3
