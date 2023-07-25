@@ -10,10 +10,10 @@ spring:
       refresh:
         enabled: true
     gateway:
-      discovery:
-        locator:
-          enabled: true
-          lower-case-serviceid: true
+      # discovery:
+      #   locator:
+      #     enabled: true
+      #     lower-case-serviceid: true
       # routes:
       #   - id: client1
       #     uri: lb://client-1
