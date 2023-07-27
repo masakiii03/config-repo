@@ -17,6 +17,10 @@ eureka:
     healthCheck:
       enabled: true
 
+server:
+  servlet:
+    context-path: /client2
+
 management:
   endpoints:
     web:
