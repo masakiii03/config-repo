@@ -64,4 +64,4 @@ gw:
   value: gw-1
 
 client-1:
-  new-version-weight: 70
+  new-version-weight: 30
