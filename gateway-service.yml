@@ -65,3 +65,6 @@ gw:
 
 client-1:
   new-version-weight: 30
+
+client-3:
+  new-version-weight: 30
