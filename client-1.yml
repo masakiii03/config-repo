@@ -48,4 +48,4 @@ cl1:
   value: client1-1
 
 client-2:
-  new-version-weight: 30
+  new-version-weight: 70
