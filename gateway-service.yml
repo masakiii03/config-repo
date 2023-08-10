@@ -14,21 +14,6 @@ spring:
         locator:
           enabled: true
           lower-case-serviceid: true
-      # routes:
-      #   - id: client1_v1
-      #     uri: lb://client-1-v1
-      #     predicates:
-      #       - Path=/service/client-1/**
-      #       - Weight=group1, 3
-      #     filters:
-      #       - RewritePath=/service/client-1/(?<segment>.*), /$\{segment}
-      #   - id: client1_v2
-      #     uri: lb://client-1-v2
-      #     predicates:
-      #       - Path=/service/client-1/**
-      #       - Weight=group1, 7
-      #     filters:
-      #       - RewritePath=/service/client-1/(?<segment>.*), /$\{segment}
       globalcors:
         corsConfigurations:
           '[/**]':
@@ -64,4 +49,4 @@ gw:
   value: gw-1
 
 client-1:
-  new-version-weight: 70
+  new-version-weight: 30
