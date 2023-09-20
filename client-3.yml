@@ -46,6 +46,3 @@ management:
 
 cl3:
   value: client3-1
-
-client-4:
-  new-version-weight: 30
